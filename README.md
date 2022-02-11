@@ -41,7 +41,7 @@ def processed(image):
   return box
 ```
 
-### Gadio GUI
+### Gradio GUI
 
 ```bash
 iface = gr.Interface(fn = processed, inputs = "image", 
