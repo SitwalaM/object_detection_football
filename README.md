@@ -57,6 +57,8 @@ iface.launch(debug = False)
 
 # Approach 1 - Simple Bounding Box Distance from Centre
 
+The simplest baseline approach was used to come up with a working pipeline for the model. As can be seen from the image below, several problems could arise from such an approach. Some players in the background or even fans can seem to be closest to the ball. Sizes of bounding boxes due to player's arms for example can give a wrong outcome for proximity as only the centroid is being used. However, it's a good start point to tune the class detection itself and explore other ways of solving the problem. 
+
 ![player proximity calculation](https://github.com/SitwalaM/object_detection_football/blob/main/images/calculations.svg)
 
 
