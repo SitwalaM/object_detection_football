@@ -53,4 +53,8 @@ iface.launch(debug = False)
 
 ```
 
+## Proximity Calculation
+
+# Approach 1 - Simple Bounding Box Distance from Centre
+
 
