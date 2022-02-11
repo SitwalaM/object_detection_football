@@ -62,3 +62,19 @@ The simplest baseline approach was used to come up with a working pipeline for t
 ![player proximity calculation](https://github.com/SitwalaM/object_detection_football/blob/main/images/calculations.svg)
 
 
+## Conclusions
+
+* Baseline pipeline that could potentially be developed for automatic statistics collection has been demonstrated
+* Ground truth training data would help calibrate out false proximities like backrground players and fans in the crowd
+* With availability of open-source pre-trained models, interesting use cases as the one shows here can be developed to help us in our daily life
+
+
+## Acknowledgements/ References
+
+[Load YOLOv5 from PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)
+[JS script for google search Query] (https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
+
+
+
+
+
