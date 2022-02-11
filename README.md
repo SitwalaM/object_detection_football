@@ -61,6 +61,10 @@ The simplest baseline approach was used to come up with a working pipeline for t
 
 ![player proximity calculation](https://github.com/SitwalaM/object_detection_football/blob/main/images/calculations.svg)
 
+# Approach 2 - Two Stage Inference
+
+YOLOv5 have a built-in function that crops images using detected bounding boxes.  The second approach leverages this function and makes predicitions twice. The first inference crops images and stores them in folder by class. In this case, person and sports ball. The second inference is restricted to the images with person and is set up to detect sports ball only. If the ball is in proximity to a player, one image will be selected. This method poses similar issues concerning the proximity of other players during a tackle for example.
+![Two stage inference](https://github.com/SitwalaM/object_detection_football/blob/main/images/ausie7.jpg)
 
 ## Conclusions
 
