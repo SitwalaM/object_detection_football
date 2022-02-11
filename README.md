@@ -20,14 +20,14 @@ The demo pipeline can be fully run in the [notebook](https://github.com/SitwalaM
 
 Edit the file name inputs in the script as required.
 
-The algorithm is tested using [gradio]. It takes an input image and outputs an image with the bounding box. The following functions are used to input the image into the model:
+The algorithm is tested using [gradio](https://gradio.app/). It takes an input image and outputs an image with the bounding box. The following functions are used to input the image into the model:
 
 ```bash
 def predict(image):
   # main prediction function that gets image and returns pandas dataframe
 
-  results = model(image, size=640)  # custom inference size
-  return results.pandas().xyxy[0] #change to return both
+  results = model(image, size=640)  
+  return results.pandas().xyxy[0] 
   
 def processed(image):
   #inputs the image and draws the bounding box on closest player
@@ -40,3 +40,17 @@ def processed(image):
 
   return box
 ```
+
+### Gadio GUI
+
+```bash
+iface = gr.Interface(fn = processed, inputs = "image", 
+             outputs = "image",
+             capture_session = True, 
+             title="Who Has the Ball?")
+             
+iface.launch(debug = False)
+
+```
+
+
