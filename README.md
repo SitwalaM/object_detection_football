@@ -2,7 +2,7 @@
 
 ## Overview 
 
-The project aims to determine a football player with possession of the ball using computer vision. Use cases for this include automatic possession statistics and potentially automatically obtaining xG (expected goals) statistics if we can capture when a short is taken by a player. The project uses a pretrained yolov5 model to identiy players and then draw a bounding box around the player with the ball.
+The project aims to determine a football player with possession of the ball using computer vision. Use cases for this include automatic possession statistics and potentially automatically obtaining xG (expected goals) statistics if we can capture when a short is taken by a player. The project uses a pretrained [yolov5](https://github.com/ultralytics/yolov5) model to identiy players and then draw a bounding box around the player with the ball.
 
 ![Example output from gradio](https://github.com/SitwalaM/object_detection_football/blob/main/images/example4.PNG)
 
