@@ -71,8 +71,8 @@ The simplest baseline approach was used to come up with a working pipeline for t
 
 ## Acknowledgements/ References
 
-[Load YOLOv5 from PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)
-[JS script for google search Query] (https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
+1. [Load YOLOv5 from PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)
+2. [JS script for google search Query] (https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
 
 
 
