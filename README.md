@@ -57,4 +57,6 @@ iface.launch(debug = False)
 
 # Approach 1 - Simple Bounding Box Distance from Centre
 
+![player proximity calculation](https://github.com/SitwalaM/object_detection_football/blob/main/images/calculations.svg)
+
 
